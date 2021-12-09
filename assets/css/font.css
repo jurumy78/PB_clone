@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* Gmarket Sans */
+@font-face {
+  font-family: 'Gmarket Sans';    
+  font-style: normal;    
+  font-weight: 700;
+   src: local('Gmarket Sans Bold'), local('GmarketSans-Bold'),
+   url('../fonts/GmarketSansBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/GmarketSansBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Gmarket Sans';    
+  font-style: normal;    
+  font-weight: 500;
+   src: local('Gmarket Sans Medium'), local('GmarketSans-Medium'),
+   url('../fonts/GmarketSansMedium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/GmarketSansMedium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Gmarket Sans';    
+  font-style: normal;    
+  font-weight: 300;
+   src: local('Gmarket Sans Light'), local('GmarketSans-Light'),
+   url('../fonts/GmarketSansLight.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+   url('../fonts/GmarketSansLight.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

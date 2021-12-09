@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO 최적화 : 내 프로젝트가 검새에 잘 걸러지게 하기 위해서 -->
+  <meta property="og:url" content="">
+	<meta property="og:title" content="반응형 포트폴리오">
+	<meta property="og:description" content="flex를 이해하기 위해 한땀한땀 작업한 클론사이트">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="공유썸네일이미지경로">
+	<meta name="description" content="자기소개 한줄">
+	<meta name="keywords" content="노출되고싶은 키워드 적기">
+	<meta name="author" content="안영희">
+
+  <!-- 파비콘 jpeg png ico 확장자면 문제없음 -->
+  <link rel="icon" type="image/png" sizes="180x180"  href="/assets/img/cropped-PB_favicon-180x180.png">
+  
+  <title>파리바게트 클론코딩 시작</title>
+  <!-- library -->
+  <link rel="stylesheet" href="./assets/css/libs/slick.css">
+  <script src="./assets/js/libs/jquery-2.2.4.min.js"></script>
+  <script src="./assets/js/libs/slick.min.js"></script>
+  <!-- 폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/font.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- js -->
+  <script src="./assets/js/script.js"></script>
+</head>
+<body>
+  <!-- header -->
+  <header class="hd">
+    <div class="inner">
+      <h1 class="logo">
+        <a href="#" target="_blank">
+          <img src="./assets/img/pb_logo.svg" alt="파리바게트">
+        </a>
+      </h1>
+      <!-- //logo -->
+      <nav>
+        <div class="gnb pc-gnb">
+          <div class="gnb-left">
+            <ul>
+              <li class="dep1"><a href="#magazine">PB magazine</a></li>
+              <li class="dep1"><a href="#story">PB story</a></li>
+              <li class="dep1"><a href="#promotion">product</a></li>
+            </ul>
+          </div>
+          <!-- //gnb-left -->
+          <div class="gnb-right">
+            <ul>
+              <li class="dep1"><a href="#product">store</a></li>
+              <li class="dep1"><a href="#">delivery</a></li>
+              <li class="dep1"><a href="#">promotion</a></li>
+            </ul>
+          </div>
+          <!-- //gnb-right -->
+        </div>
+      </nav>
+      <nav>
+        <div class="gnb mob-gnb">
+          <div class="gnb-box">
+            <ul>
+              <li class="dep1"><a href="#magazine">모바일메뉴1</a></li>
+              <li class="dep1"><a href="#story">모바일메뉴2</a></li>
+              <li class="dep1"><a href="#promotion">모바일메뉴3</a></li>
+              <li class="dep1"><a href="#product">모바일메뉴4</a></li>
+              <li class="dep1"><a href="https://www.paris.co.kr/delivery/howto/" target="_blank">모바일메뉴5</a></li>
+              <li class="dep1"><a href="https://www.paris.co.kr/store/" target="_blank">모바일메뉴6</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="toggle-menu">
+        <div>
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- //header -->
+  <section class="kv">
+    <div class="kv-list slider">
+      <div class="list-item"><a href="#"><img src="./assets/img/pb_kv0.jpg" alt="배너1"></a></div>
+      <div class="list-item"><a href="#"><img src="./assets/img/pb_kv1.jpg" alt="배너2"></a></div>
+      <div class="list-item"><a href="#"><img src="./assets/img/pb_kv2.jpg" alt="배너3"></a></div>
+      <div class="list-item"><a href="#"><img src="./assets/img/pb_kv3.jpg" alt="배너4"></a></div>
+    </div>
+  </section>
+  <!-- //kv -->
+
+<section id="magazine" class="content magazine">
+  <div class="inner">
+    <div class="sec-header">
+      <!-- 제목 -->
+      <h3 class="main-tit">pb magazine</h3>
+      <!-- 더보기 -->
+      <a href="#" target="_blank" title="더보기" class="btn-more">
+        <span>show more</span>
+      </a>
+    </div>
+    <!-- //sec-header -->
+    <div class="sec-body"></div>
+    <ul class="magazine-list">
+      <li class="list-item">
+        <a href="#" target="_blank">
+          <div class="img-area">
+            <img src="./assets/img/thum_magazine1.jpg" alt="섬네일1">
+          </div>
+          <div class="txt-area">
+            <h4 class="txt-tit">논산 딸기</h4>
+            <p class="txt-desc">논산 딸기와 함께한 우리 모두가 행복한 상생 프로젝트</p>
+          </div>
+        </a>
+      </li>
+      <li class="list-item">
+        <a href="#" target="_blank">
+          <div class="img-area">
+            <img src="./assets/img/thum_magazine2.jpg" alt="섬네일2">
+          </div>
+          <div class="txt-area">
+            <h4 class="txt-tit">논산 딸기</h4>
+            <p class="txt-desc">논산 딸기와 함께한 우리 모두가 행복한 상생 프로젝트</p>
+          </div>
+        </a>
+      </li>
+      <li class="list-item">
+        <a href="#" target="_blank">
+          <div class="img-area">
+            <img src="./assets/img/thum_magazine3.jpg" alt="섬네일3">
+          </div>
+          <div class="txt-area">
+            <h4 class="txt-tit">논산 딸기</h4>
+            <p class="txt-desc">논산 딸기와 함께한 우리 모두가 행복한 상생 프로젝트</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+    <!-- //sec-body -->
+</section>
+<!-- //magazine -->
+
+<section id="story" class="content story">
+  <div class="inner">
+    <div class="sec-header">
+      <h3 class="main-tit">pb story</h3>
+      <a href="#" target="_blank" title="더보기" class="btn-more">
+        <span>show more</span>
+      </a>
+    </div>
+    <!-- //sec-header -->
+    <div class="sec-body">
+      <ul class="story-list">
+        <li class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/thum_pbstory1.jpg" alt="스토리1">
+            </a>  
+          </div>
+          <!-- img area -->
+          <div class="txt-area">
+            <div class="txt-label">
+              <span>bread video</span>
+            </div>
+            <div class="txt-tit line-clamp-3">
+              <strong>요리용디X풍기꿀삼빵 월클 김연경선수를 위한 파바의 특별한선물!</strong>
+            </div>
+            <div class="txt-desc line-clamp-3">
+              <p>추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남</p>
+            </div>
+            <div class="txt-date">
+              <span>2021-09-27</span>
+            </div>
+          </div>
+          <!-- txt-area -->
+        </li>
+        <li class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/thum_pbstory2.jpg" alt="스토리1">
+            </a>  
+          </div>
+          <!-- img area -->
+          <div class="txt-area">
+            <div class="txt-label">
+              <span>bread video</span>
+            </div>
+            <div class="txt-tit line-clamp-3">
+              <strong>요리용디X풍기꿀삼빵</strong>
+            </div>
+            <div class="txt-desc line-clamp-3">
+              <p>추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남</p>
+            </div>
+            <div class="txt-date">
+              <span>2021-09-27</span>
+            </div>
+          </div>
+          <!-- txt-area -->
+        </li>
+        <li class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/thum_pbstory1.jpg" alt="스토리1">
+            </a>  
+          </div>
+          <!-- img area -->
+          <div class="txt-area">
+            <div class="txt-label">
+              <span>bread video</span>
+            </div>
+            <div class="txt-tit line-clamp-3">
+              <strong>요리용디X풍기꿀삼빵</strong>
+            </div>
+            <div class="txt-desc line-clamp-3">
+              <p>추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남</p>
+            </div>
+            <div class="txt-date">
+              <span>2021-09-27</span>
+            </div>
+          </div>
+          <!-- txt-area -->
+        </li>
+        <li class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/thum_pbstory2.jpg" alt="스토리1">
+            </a>  
+          </div>
+          <!-- img area -->
+          <div class="txt-area">
+            <div class="txt-label">
+              <span>bread video</span>
+            </div>
+            <div class="txt-tit line-clamp-3">
+              <strong>요리용디X풍기꿀삼빵</strong>
+            </div>
+            <div class="txt-desc line-clamp-3">
+              <p>추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남
+                추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남
+                추석 선물로 딱인 풍기꿀삼빵을 위한 파바와 요리용디의 여섯번째 만남
+              </p>
+            </div>
+            <div class="txt-date">
+              <span>2021-09-27</span>
+            </div>
+          </div>
+          <!-- txt-area -->
+        </li>
+      </ul>
+    </div>
+    <!-- //sec-body -->
+  </div>
+</section>
+<!-- //story -->
+
+<section id="promotion" class="content promotion">
+  <div class="inner">
+    <div class="sec-header">
+      <h3 class="main-tit">pb promotion</h3>
+      <a href="#" target="_blank" title="더보기" class="btn-more">
+        <span>show more</span>
+      </a>
+    </div>
+    <!-- //sec-header -->
+    <div class="sec-body">
+      <div class="promotion-list slider">
+        <!-- [D] badge 상태변경 
+          stage-live : 진행중
+          stage-done : 종료
+          stage-announce : 당첨자 발표
+        -->
+        <div class="list-item stage-live">
+          <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/img/thum_promo1.jpg" alt="프로모션배너1">
+                <span class="badge"></span>
+              </a>
+          </div>
+          <div class="txt-area">
+            <div class="txt-tit">
+              <a href="#">
+                <strong>김연경이 파바에 왔다!</strong>
+              </a>
+            </div>
+            <div class="btn-more">
+              <a href="#">
+                READ MORE
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="list-item stage-done">
+          <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/img/thum_promo2.jpg" alt="프로모션배너1">
+                <span class="badge"></span>
+              </a>
+          </div>
+          <div class="txt-area">
+            <div class="txt-tit">
+              <a href="#">
+                <strong>김연경이 파바에 왔다!</strong>
+              </a>
+            </div>
+            <div class="btn-more">
+              <a href="#">
+                READ MORE
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="list-item stage-announce">
+          <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/img/thum_promo3.jpg" alt="프로모션배너1">
+                <span class="badge"></span>
+              </a>
+          </div>
+          <div class="txt-area">
+            <div class="txt-tit">
+              <a href="#">
+                <strong>김연경이 파바에 왔다!</strong>
+              </a>
+            </div>
+            <div class="btn-more">
+              <a href="#">
+                READ MORE
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="list-item stage-live">
+          <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/img/thum_promo1.jpg" alt="프로모션배너1">
+                <span class="badge"></span>
+              </a>
+          </div>
+          <div class="txt-area">
+            <div class="txt-tit">
+              <a href="#">
+                <strong>김연경이 파바에 왔다!</strong>
+              </a>
+            </div>
+            <div class="btn-more">
+              <a href="#">
+                READ MORE
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="list-item stage-live">
+          <div class="img-area">
+              <a href="#" target="_blank">
+                <img src="./assets/img/thum_promo2.jpg" alt="프로모션배너1">
+                <span class="badge"></span>
+              </a>
+          </div>
+          <div class="txt-area">
+            <div class="txt-tit">
+              <a href="#">
+                <strong>김연경이 파바에 왔다!</strong>
+              </a>
+            </div>
+            <div class="btn-more">
+              <a href="#">
+                READ MORE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //sec-body -->
+  </div>
+</section>
+<!-- //promotion -->
+
+<section id="product" class="content product">
+  <div class="inner">
+    <div class="sec-header">
+      <h3 class="main-tit">pb product</h3>
+      <a href="#" target="_blank" title="더보기" class="btn-more">
+        <span>show more</span>
+      </a>
+    </div>
+    <!-- //sec-header -->
+    <div class="sec-body">
+      <div class="product-list slider">
+        <div class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/product-cake.jpg" alt="프로덕트썸네일1">
+            </a>
+          </div>
+          <div class="txt-area">
+            <a href="#">
+              <h3>생일챙겨 펭수케이크</h3>
+            </a>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/product-cake.jpg" alt="프로덕트썸네일1">
+            </a>
+          </div>
+          <div class="txt-area">
+            <a href="#">
+              <h3>생일챙겨 펭수케이크</h3>
+            </a>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/210512_PB초코쉬폰케이크-600x600.jpg" alt="프로덕트썸네일1">
+            </a>
+          </div>
+          <div class="txt-area">
+            <a href="#">
+              <h3>생일챙겨 펭수케이크</h3>
+            </a>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/product-cake.jpg" alt="프로덕트썸네일1">
+            </a>
+          </div>
+          <div class="txt-area">
+            <a href="#">
+              <h3>생일챙겨 펭수케이크</h3>
+            </a>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/product-cake.jpg" alt="프로덕트썸네일1">
+            </a>
+          </div>
+          <div class="txt-area">
+            <a href="#">
+              <h3>생일챙겨 펭수케이크</h3>
+            </a>
+          </div>
+        </div>
+        <div class="list-item">
+          <div class="img-area">
+            <a href="#">
+              <img src="./assets/img/product-cake.jpg" alt="프로덕트썸네일1">
+            </a>
+          </div>
+          <div class="txt-area">
+            <a href="#">
+              <h3>생일챙겨 펭수케이크</h3>
+            </a>
+          </div>
+        </div>
+      </div>  
+    </div>
+    </div>
+    <!-- //sec-body -->
+  </div>
+</section>
+<!-- //product -->
+
+<section class="contents notice">
+  
+    <div class="sec-header sr-only">
+      <h3 class="main-tit">pb promotion</h3>
+      <a href="#" target="_blank" title="더보기" class="btn-more">
+        <span>show more</span>
+      </a>
+    </div>
+    <div class="sec-body">
+      <ul class="notice-list">
+        <li class="list-item">
+          <a href="#">
+            <span class="label">고객센터</span>
+            <p class="txt-tit">고객의 소리를 적극 경청하고 고객만족 향상활동을 지속적으로 실천합니다</p>
+            <i class="ico-arr"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="#">
+            <span class="label">제휴카드안내</span>
+            <p class="txt-tit">해피포인트와 제휴카드 정보를 확인하세요</p>
+            <i class="ico-arr"></i>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="#">
+            <span class="label">공지사항</span>
+            <p class="txt-tit">파리바게트의 공지내용을 확인하세요</p>
+            <i class="ico-arr"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  
+</section>
+<footer class="ft">
+  <div class="inner">
+    <div class="box-wrap">
+      <div class="box">
+        <h6 class="txt-tit">info</h6>
+        <div class="box-body">
+          <ul class="info-list">
+            <li><a href="#">info 내용</a></li>
+            <li><a href="#">info 내용</a></li>
+            <li><a href="#">info 내용</a></li>
+            <li><a href="#">info 내용</a></li>
+            <li><a href="#">info 내용</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- //info -->
+      <div class="box">
+        <h6 class="txt-tit">contact us</h6>
+        <div class="box-body">
+          <ul class="contact-list">
+            <li><a href="#">contact 내용</a></li>
+            <li><a href="#">contact 내용</a></li>
+            <li><a href="#">contact 내용</a></li>
+            <li>contact 내용</li>
+            <li><a href="#">contact 내용</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- //contact -->
+      <div class="box">
+        <h6 class="txt-tit sr-only">brands</h6>
+        <div class="box-body">
+          <ul class="brand-list">
+            <li><a href="#"><img src="./assets/img/ft_brand_logo1.png" alt="브랜드1"></a></li>
+            <li><a href="#"><img src="./assets/img/ft_brand_logo2.png" alt="브랜드1"></a></li>
+            <li><a href="#"><img src="./assets/img/ft_brand_logo3.png" alt="브랜드1"></a></li>
+            <li><a href="#"><img src="./assets/img/ft_brand_logo4.png" alt="브랜드1"></a></li>
+            <li><a href="#"><img src="./assets/img/ft_brand_logo5.png" alt="브랜드1"></a></li>
+            <li><a href="#"><img src="./assets/img/ft_brand_logo6.png" alt="브랜드1"></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- //brands -->
+      <div class="box">
+        <h6 class="txt-tit">follow us</h6>
+        <div class="box-body">
+          <ul class="sns-list">
+            <li class="ico-fa"><a href="#"><img src="./assets/img/sns_ico_01.svg" alt="sns-1"></a></li>
+            <li class="ico-in"><a href="#"><img src="./assets/img/sns_ico_02.svg" alt="sns-2"></a></li>
+            <li class="ico-yt"><a href="#"><img src="./assets/img/sns_ico_03.svg" alt="sns-3"></a></li>
+          </ul>
+          <div class="family-site">
+            <button class="select-label">Family site</button>
+            <ul class="select-list">
+              <li><a href="#" target="_blank">패밀리사이트</a></li>
+              <li><a href="#" target="_blank">패밀리사이트</a></li>
+              <li><a href="#" target="_blank">패밀리사이트</a></li>
+              <li><a href="#" target="_blank">패밀리사이트</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- //follow -->
+    </div>
+    <!-- //box-wrap -->
+    <ul class="ft-menu">
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><a href="#">이메일무단수집거부</a></li>
+      <li><a href="#">영상정보처리기기운영관리방침</a></li>
+    </ul>
+  </div>
+  <div class="copyright">
+    All Rights Reserved © PARIS BAGUETTE, PARIS CROISSANT CO., LTD. 경기도 성남시 중원구 상대원동 사기막골로 31번길 18 (주) 파리크라상
+  </div> 
+
+</footer>
+</body>
+</html>

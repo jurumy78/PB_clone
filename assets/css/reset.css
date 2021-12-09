@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,time,figure,article,nav,header,footer,hgroup,video,audio,aside,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; vertical-align: baseline; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+ol,ul {list-style: none;}
+table {border-collapse: separate;border-spacing: 0;}
+caption,th,td {text-align: left;font-weight: normal;}
+figure,article,header,footer,nav,hgroup,video,audio,aside,main {display: block;}
+
+input, textarea {-webkit-appearance: none;;-webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0;}
+
+html{-ms-text-size-adjust: none;-webkit-text-size-adjust: none;-moz-text-size-adjust: none;text-size-adjust: none;}
+body,textarea:focus,input:focus,a:focus {-webkit-tap-highlight-color: rgba(255, 255, 255, 0);} 
+body{ font-family:"Noto Sans KR", "Gmarket Sans", -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;-webkit-touch-callout: none;}
+
+::-moz-selection {background: #023586;background: rgba(2, 53, 134, 1);color:#fff;}
+::selection {background: #023586;background: rgba(2, 53, 134, 1);color:#fff;}
+
+label {cursor: pointer;}
+input,
+textarea {-webkit-appearance: none; -moz-appearance: none; appearance: none;  }
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+input[type=url],
+input[type=number],
+input[type=search],
+textarea {-webkit-appearance: none; -moz-appearance: none; appearance: none; -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;outline: none;-webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; border: 1px solid #111;}
+input[type=radio],
+input[type=checkbox] {position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0;}
+
+button,
+input[type=file],
+input[type=image],
+input[type=reset],
+input[type=button],
+input[type=submit] {border: none; background: none; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; cursor: pointer; -webkit-appearance:none; -moz-appearance: none; appearance: none;}
+
+::-webkit-input-placeholder {color: #999;}
+::-moz-placeholder {color: #999;}
+:-ms-input-placeholder {color: #999;}
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {color: transparent;}
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {color: transparent;}
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {color: transparent;}
+
+input::-ms-clear { display: none; width : 0; height: 0; }
+input::-ms-reveal { display: none; width : 0; height: 0; }
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button { -webkit-appearance: none; -moz-appearance: none; appearance: none; margin: 0; }
+input[type=number] { -moz-appearance: textfield; }
+select {  border: 1px solid #111; -webkit-appearance: none; /* FF */ -moz-appearance: none; /* safari chrome */ appearance: none; }
+select::-ms-expand { display:none; }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active { -webkit-box-shadow: 0 0 0 60px #fff inset; }
+input:-webkit-autofill {-webkit-text-fill-color: #111;}
+
+.clearfix::before,
+.clearfix::after { content:""; display: block; clear:both; }
+
+.ir_pm {display: block; overflow: hidden; font-size: 0; line-height: 0; text-indent: -9999px;} 
+.ir_wa {display: block; overflow: hidden; position: relative; z-index: -1; width: 100%; height: 100%;}
+.ir_su {overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px;}
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.sr-only { -webkit-box-sizing: content-box; box-sizing: content-box; position: absolute; text-indent: -9999px; z-index: -1; display: inline-block; overflow: hidden; clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px; padding: 0; word-break: keep-all; white-space: nowrap; border: 0; color: transparent; font: 0/0 a; height: 0; }
+.hide-text { color: transparent; border: none; background-color: transparent; text-shadow: none; font: 0/0 a; }
+
+.no-select { cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
